@@ -46,3 +46,6 @@ footer{
     text-align: center;
 }
 
+main{
+    max-width: 100%;
+}
