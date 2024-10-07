@@ -125,4 +125,6 @@ footer a{
     gap:10px;
 }
 
-
+.social-media a img{
+    width:30px;
+}
