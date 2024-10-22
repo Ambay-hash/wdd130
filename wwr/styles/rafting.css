@@ -26,7 +26,6 @@ nav{
     grid-column: 2 / 3;
     justify-content: center;
     margin: auto;
-    background-color: none;
     display: flex;
     flex-direction: row;
     padding: 10px;
