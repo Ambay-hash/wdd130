@@ -86,7 +86,7 @@ article{
     
 }
 h1{
-    color:white;
+    color:rgb(15, 1, 1);
 }
 article p{
     padding:2%;
@@ -171,4 +171,34 @@ footer a{
 
 .social-media a img{
     width:30px;
+}form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 5%;
+    background-color: aquamarine;
+    padding: 5%;
+    border-radius: 5%;
+    
+}
+
+form div{
+    padding-bottom: 5%;
+    
+}
+
+.purpose{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.message{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.message label{
+    padding: 2%;
 }
