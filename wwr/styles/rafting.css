@@ -159,6 +159,10 @@ iframe{
     flex-direction: row;
     
 }
+.Employeeimg figure img{
+    width: 300px;
+    height: 200px; ;
+}
 
 footer{
     display: flex;
