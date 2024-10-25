@@ -168,6 +168,11 @@ footer a{
     justify-content: space-evenly;
     gap:10px;
 }
+.map{
+    width: 600px;
+    height: 450;
+    border-style: 0%;
+}
 
 .social-media a img{
     width:30px;
