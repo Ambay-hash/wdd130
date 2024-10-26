@@ -7,9 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
-
+    justify-content: center;  
 }
 header{
     display: grid;
@@ -20,7 +18,6 @@ header{
     padding: 0.5%;
     align-items: center;
     justify-content: center;
-
 }
 nav{
     grid-column: 2 / 3;
@@ -77,9 +74,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-   
-    
+    position: relative;    
 }
 article{
     background-color: rgba(255, 255, 255, 0.728);
@@ -101,13 +96,10 @@ article p{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    
-
+    justify-content: center;   
 }
 .history div{
     padding: 10px;
-
 }
 
 .history div img{
@@ -119,7 +111,6 @@ article p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .pictures{
@@ -137,15 +128,13 @@ article p{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .form-map{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 iframe{
@@ -203,13 +192,10 @@ footer a{
     padding: 5%;
     border-radius: 5%;
     height: 330px;
-
-    
 }
 
 form div{
-    padding-bottom: 5%;
-    
+    padding-bottom: 5%;   
 }
 
 .purpose{
@@ -220,10 +206,23 @@ form div{
 
 .message{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .message label{
     padding: 2%;
+}
+.hero
+
+
+.action{
+    text-decoration: none;
+    padding: 5%;
+    background-color:rgb(1, 1, 8) ;
+    color: rgb(240, 237, 246);
+    font-size: 200%;
+}
+
+.action:hover{
+    background-color: rgb(90, 38, 136);
 }
