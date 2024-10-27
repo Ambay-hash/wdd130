@@ -20,6 +20,7 @@ header{
     justify-content: center;
     position: fixed;
     top:0%;
+    z-index: 1000;
 }
 nav{
     grid-column: 2 / 3;
@@ -64,12 +65,13 @@ main{
     padding-top: 0%;
     align-items: center;
     margin: 0%;
-    margin-top:2% ;
+    margin-top:0 ;
 }
 .client1{
     grid-area: main;
     width: 100%;
     align-items: center;
+    margin: 0%;
 }
 .articlediv{
     grid-area: main;
@@ -255,6 +257,7 @@ form div{
 .purpose{
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -286,6 +289,7 @@ form div{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
 }
 
 .fun{
@@ -339,5 +343,44 @@ main a:hover{
     font-size: 40px;
 }
 main{
-    margin-top: 10%;
+    margin-top: 6%;
 }
+
+.enjoy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.fun3{
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 30%;
+}
+
+.fun4{
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 30%;
+}
+ .use{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+ }
+ .discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+ }
